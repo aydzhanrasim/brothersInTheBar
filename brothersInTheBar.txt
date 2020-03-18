@@ -1,0 +1,10 @@
+1. Set a counter for successful rounds and a boolean to identify when a round is successsful.
+2. Identiy the constraints for max and min values for the length of the input array and the value of each index.
+3. Creating a loop that validates the length of the array.
+4. Creating a loop that goes through every index in the array.
+5. Validating the value of the index.
+6. Saving the values of 3 consequtive indexes starting from the current one.
+7. If values are equal we have a successful round. So we add one to rounds and extract the glasses that made up the round from the originl array. 
+8. Otherwise, if the selected 3 values are not equal we do not have a successful round.
+9. If there are no successful rounds in the whole array, the cycle breaks.
+10. We print the result of how many rounds the brothers had.
